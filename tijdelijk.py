@@ -3,13 +3,9 @@ prijzen = {
     "vanille": 4,
     "chocolade": 5
 }
-print(prijzen)
 aanbieding = prijzen["aardbei"] * 0.8
-print(aanbieding)
 reclame_tekst = f"Vandaag in de aanbieding: vanille-ijs, 1 liter – slechts € {aanbieding}"
-for i, letter in enumerate(reclame_tekst):
-    print(i, letter)
-    reclame_tekst2 = reclame_tekst[:62]
+reclame_tekst2 = reclame_tekst[:62]
 reclame_tekst3 = reclame_tekst2.upper()
 reclame_tekst4 = reclame_tekst3.split()
 for el in reclame_tekst4:
